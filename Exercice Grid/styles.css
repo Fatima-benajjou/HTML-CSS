@@ -2,13 +2,14 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 100px 300px 100px;
+    grid-template-columns: 100px auto 100px;
     grid-template-rows: auto;
     grid-template-areas: 
         'header header header'
         'main1 main main2'
         'footer footer footer';
     grid-gap: 10px;
+    margin: 20px;
     
 }
 
